@@ -1,3 +1,42 @@
 body {
+  color: #f6feff;
   font-family: "Nunito", sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 346px;
+  background: url("/images/codeland.png") no-repeat center center / cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  text-align: center;
+}
+
+h1 {
+  padding: 8px 16px;
+  border-radius: 10px;
+  background: #175056;
+  text-shadow: 0 0 4px #000;
+
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 800;
+}
+
+h2 {
+  width: 360px;
+  padding: 8px 24px;
+  border-radius: 10px;
+  background: #57b0ba;
+
+  text-shadow: 0 0 4px #000;
+
+  font-size: 1.125rem;
+  line-height: 1.4;
+  font-weight: 700;
 }
