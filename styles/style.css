@@ -113,3 +113,50 @@ h3 {
   line-height: 2;
   text-align: justify;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 80px;
+}
+
+.card {
+  width: 500px;
+  padding: 25px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+
+  color: #175056;
+  background: #a2e1e8;
+  border-radius: 10px;
+  box-shadow: 0 6px 0 #175056;
+}
+
+.card img {
+  width: 180px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.name {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
